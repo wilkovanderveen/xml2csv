@@ -20,10 +20,7 @@ namespace Xml2Csv.Core.Test
             var csv = contentConverter.Convert(xml);
 
             Assert.True(!string.IsNullOrWhiteSpace(csv));
-            Assert.True(csv.Length == 97);
-            
-        }
-
-     
+            Assert.True(csv.Length == 97);            
+        }     
     }
 }
