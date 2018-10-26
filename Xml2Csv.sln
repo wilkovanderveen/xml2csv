@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xml2Csv", "Xml2Csv\Xml2Csv.csproj", "{735A9FEA-B291-47FD-8D7B-8F6DFD130A36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xml2Csv.Core", "Xml2Csv\Xml2Csv.Core.csproj", "{735A9FEA-B291-47FD-8D7B-8F6DFD130A36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xml2Csv.Core.Test", "Xml2Csv.Test\Xml2Csv.Core.Test.csproj", "{562DA435-81B6-44F1-A8D6-E5440A8ECDA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{735A9FEA-B291-47FD-8D7B-8F6DFD130A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{735A9FEA-B291-47FD-8D7B-8F6DFD130A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{735A9FEA-B291-47FD-8D7B-8F6DFD130A36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{562DA435-81B6-44F1-A8D6-E5440A8ECDA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{562DA435-81B6-44F1-A8D6-E5440A8ECDA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{562DA435-81B6-44F1-A8D6-E5440A8ECDA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{562DA435-81B6-44F1-A8D6-E5440A8ECDA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
